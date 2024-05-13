@@ -35,7 +35,7 @@ generate_button.pack(pady=10)
 result_label = tk.Label(window, text="")
 result_label.pack(pady=5)
 
-# Center the window on the screen
+## Center the window on the screen
 window.update_idletasks()
 screen_width = window.winfo_screenwidth()
 screen_height = window.winfo_screenheight()
